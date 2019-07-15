@@ -84,7 +84,7 @@ app.post('/submit-form', (req, res) => {
 })
 ```
 
-Whatever way you choose, you'll get one or more Formidable.File objects, which give you information about the file uploaded. These are some of the methods you can call:
+Whatever way you choose, you'll get one or more `Formidable.File` objects, which give you information about the file uploaded. These are some of the methods you can call:
 
 - `file.size`, the file size in bytes
 - `file.path`, the path this file is written to
